@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mofigo Ventures</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+            background: #f9f9f9;
+        }
+
+        .wrapper {
+            width: 100%;
+            height: 100vh;
+        }
+
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+            padding-bottom: 100px;
+        }
+
+        .content {
+            padding: 10px 0;
+        }
+
+        .left,
+        .right {
+            height: 70vh;
+            float: left;
+        }
+
+        .left {
+            width: 20%;
+        }
+
+        .right {
+            padding-top: 70px;
+            width: 80%;
+        }
+
+        .items {
+            border-bottom: 1px solid #d5d5d5;
+            margin: 0px;
+            list-style: none;
+            padding: 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .item {
+            margin: 0px 15px;
+            padding: 5px 5px;
+        }
+
+        .float {
+            float: left;
+            height: 500px;
+        }
+
+        .writeup {
+            width: 35%;
+        }
+
+        .image {
+            width: 65%;
+            background-image: url('./images/cloud.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .big {
+            font-size: 6rem;
+        }
+
+        .small {
+            font-size: 2.5rem;
+            color: rgb(81, 81, 81);
+        }
+
+        .main-wrapper {
+            padding-top: 50px;
+        }
+
+        .logo {
+            border-radius: 50%;
+            border: 1px solid grey;
+            background-color: white;
+            overflow: hidden;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            color: grey;
+        }
+
+        footer {
+            margin-top: 70vh;
+            height: 30vh;
+            background-color: black;
+            color: white;
+        }
+
+        .copy {
+            text-align: center;
+            padding-top: 30px;
+        }
+    </style>
+</head>
+
+<body class="home">
+
+    <div class="wrapper">
+        <div class="container">
+            <div class="content">
+                <div class="left">
+                    <div class="logo">
+                        <img src="images/logo.png" width="100%">
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="header">
+                        <ul class="items">
+                            <li class="item"><a href="#">HOME</a></li>
+                            <li class="item"><a href="#">ABOUT</a></li>
+                            <li class="item"><a href="#">SERVICES</a></li>
+                            <li class="item"><a href="#">PROJECTS</a></li>
+                            <li class="item"><a href="#">NEWS</a></li>
+                        </ul>
+                    </div>
+                    <div class="main-wrapper">
+                        <div class="float writeup">
+                            <h1>
+                                <span class="big">Quality<br />Service,</span><br /><span class="small">At Your Door
+                                    Step</span>
+                            </h1>
+                        </div>
+                        <div class="float image"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p class="copy">&copy; Mofigo Ventures Ltd</p>
+        </footer>
+    </div>
+</body>
+
+</html>
